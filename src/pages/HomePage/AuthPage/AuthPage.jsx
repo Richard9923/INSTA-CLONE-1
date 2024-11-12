@@ -1,5 +1,5 @@
-import {Center, Container, Flex, VStack} from "@chakra-ui/react"
-import AuthForm from ""
+import {Container, Flex, VStack, Box, Image} from "@chakra-ui/react"
+import AuthForm from "../AuthForm"
 /* ver como localizar a paste compo autoform */
 
 export const AuthPage = () => {
@@ -20,13 +20,10 @@ export const AuthPage = () => {
                     <Image src='/microsoft.png' h={"10"} alt= 'Microsoft logo' />
                   </Flex>
                 </VStack>
-                </Flex>
-
-
-        
+              </Flex>
         </Container>
-
-
     </Flex>
   )
 }
+
+export default AuthPage
