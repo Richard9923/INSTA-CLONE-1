@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const AuthForm = () => {
   const [isLogin, setIsLogin] = useState(true)
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   const [inputs,setInputs] = useState({
     email:'',
     password:'',
